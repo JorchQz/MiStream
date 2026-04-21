@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiStream</string>
+    <string name="settings_saved">Configuracion guardada</string>
+    <string name="searching_streams">Buscando streams...</string>
+    <string name="play_best">Reproducir %1$s</string>
+    <string name="player_error">Error: %1$s</string>
+    <string name="no_results">Sin resultados</string>
+    <string name="search_hint">Buscar peliculas y series...</string>
+    <string name="rd_token_hint">Token de Real-Debrid</string>
+    <string name="tmdb_key_hint">API Key de TMDB</string>
+    <string name="save">Guardar</string>
+    <string name="settings">Configuracion</string>
+    <string name="trending">Tendencias</string>
+    <string name="popular_movies">Peliculas populares</string>
+    <string name="popular_series">Series populares</string>
+    <string name="search">Buscar</string>
+    <string name="all_streams">Todos los streams</string>
+</resources>
