@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:background="@color/background_card"
+    android:padding="12dp" android:layout_marginBottom="4dp" android:gravity="center_vertical"
+    android:focusable="true" android:clickable="true">
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:orientation="vertical">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="4dp">
+            <TextView android:id="@+id/tv_quality" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="14sp" android:textStyle="bold" android:textColor="@color/text_primary" android:layout_marginEnd="8dp" />
+            <TextView android:id="@+id/tv_rd_badge" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="RD" android:textSize="11sp" android:textColor="@color/badge_rd" android:visibility="gone" />
+        </LinearLayout>
+        <TextView android:id="@+id/tv_source" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="12sp" android:textColor="@color/text_secondary" />
+        <TextView android:id="@+id/tv_info" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="11sp" android:textColor="@color/text_secondary" />
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="&gt;" android:textSize="18sp" android:textColor="@color/accent_red" android:layout_marginStart="8dp" />
+</LinearLayout>

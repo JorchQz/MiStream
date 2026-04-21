@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mistream.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:4:5-79
+12-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:4:22-76
+13
+14    <uses-feature
+14-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:5:5-87
+15        android:name="android.software.leanback"
+15-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:5:19-59
+16        android:required="false" />
+16-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:5:60-84
+17    <uses-feature
+17-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:6:5-90
+18        android:name="android.hardware.touchscreen"
+18-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:6:19-62
+19        android:required="false" />
+19-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:6:63-87
+20
+21    <permission
+21-->[androidx.core:core:1.15.0] C:\Users\jorge\.gradle\caches\8.13\transforms\8963ab94eb7fc8e10ac57393d4c562f9\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+22        android:name="com.mistream.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.15.0] C:\Users\jorge\.gradle\caches\8.13\transforms\8963ab94eb7fc8e10ac57393d4c562f9\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.15.0] C:\Users\jorge\.gradle\caches\8.13\transforms\8963ab94eb7fc8e10ac57393d4c562f9\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.mistream.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.15.0] C:\Users\jorge\.gradle\caches\8.13\transforms\8963ab94eb7fc8e10ac57393d4c562f9\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.15.0] C:\Users\jorge\.gradle\caches\8.13\transforms\8963ab94eb7fc8e10ac57393d4c562f9\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:7:5-31:19
+28        android:name="com.mistream.app.MiStreamApp"
+28-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:8:9-36
+29        android:allowBackup="true"
+29-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:9:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.15.0] C:\Users\jorge\.gradle\caches\8.13\transforms\8963ab94eb7fc8e10ac57393d4c562f9\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+31        android:banner="@drawable/app_banner"
+31-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:10:9-46
+32        android:debuggable="true"
+33        android:extractNativeLibs="true"
+34        android:icon="@drawable/app_icon"
+34-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:11:9-42
+35        android:label="@string/app_name"
+35-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:12:9-41
+36        android:supportsRtl="true"
+36-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:13:9-35
+37        android:theme="@style/Theme.MiStream"
+37-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:14:9-46
+38        android:usesCleartextTraffic="true" >
+38-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:15:9-44
+39        <activity
+39-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:16:9-24:20
+40            android:name="com.mistream.app.ui.MainActivity"
+40-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:16:19-50
+41            android:configChanges="keyboard|keyboardHidden|navigation|screenSize|orientation"
+41-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:17:13-94
+42            android:exported="true"
+42-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:16:51-74
+43            android:launchMode="singleTop" >
+43-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:18:13-43
+44            <intent-filter>
+44-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:19:13-23:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:20:17-69
+45-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:20:25-66
+46
+47                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+47-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:21:17-86
+47-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:21:27-83
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:22:17-77
+48-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:22:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:25:9-26:97
+52            android:name="com.mistream.app.ui.detail.DetailActivity"
+52-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:25:19-59
+53            android:configChanges="keyboard|keyboardHidden|navigation|screenSize|orientation"
+53-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:26:13-94
+54            android:exported="false" />
+54-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:25:60-84
+55        <activity
+55-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:27:9-29:98
+56            android:name="com.mistream.app.ui.player.PlayerActivity"
+56-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:27:19-59
+57            android:configChanges="keyboard|keyboardHidden|navigation|screenSize|orientation"
+57-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:28:13-94
+58            android:exported="false"
+58-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:27:60-84
+59            android:screenOrientation="landscape"
+59-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:29:13-50
+60            android:theme="@style/Theme.MiStream.Player" />
+60-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:29:51-95
+61        <activity
+61-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:30:9-91
+62            android:name="com.mistream.app.ui.settings.SettingsActivity"
+62-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:30:19-63
+63            android:exported="false" />
+63-->C:\Users\jorge\MiStream\app\src\main\AndroidManifest.xml:30:64-88
+64
+65        <provider
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jorge\.gradle\caches\8.13\transforms\57bd7298c7daf5cafb3dbc4cb905ca89\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+66            android:name="androidx.startup.InitializationProvider"
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jorge\.gradle\caches\8.13\transforms\57bd7298c7daf5cafb3dbc4cb905ca89\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+67            android:authorities="com.mistream.app.androidx-startup"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jorge\.gradle\caches\8.13\transforms\57bd7298c7daf5cafb3dbc4cb905ca89\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+68            android:exported="false" >
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jorge\.gradle\caches\8.13\transforms\57bd7298c7daf5cafb3dbc4cb905ca89\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+69            <meta-data
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jorge\.gradle\caches\8.13\transforms\57bd7298c7daf5cafb3dbc4cb905ca89\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jorge\.gradle\caches\8.13\transforms\57bd7298c7daf5cafb3dbc4cb905ca89\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+71                android:value="androidx.startup" />
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jorge\.gradle\caches\8.13\transforms\57bd7298c7daf5cafb3dbc4cb905ca89\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\jorge\.gradle\caches\8.13\transforms\c138bf796745d2e5165a5fefe76d015b\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\jorge\.gradle\caches\8.13\transforms\c138bf796745d2e5165a5fefe76d015b\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+74                android:value="androidx.startup" />
+74-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\jorge\.gradle\caches\8.13\transforms\c138bf796745d2e5165a5fefe76d015b\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+77                android:value="androidx.startup" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+78        </provider>
+79
+80        <uses-library
+80-->[androidx.window:window:1.0.0] C:\Users\jorge\.gradle\caches\8.13\transforms\ec1d685074af8928554352fbeb60aebb\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.window.extensions"
+81-->[androidx.window:window:1.0.0] C:\Users\jorge\.gradle\caches\8.13\transforms\ec1d685074af8928554352fbeb60aebb\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0] C:\Users\jorge\.gradle\caches\8.13\transforms\ec1d685074af8928554352fbeb60aebb\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+83        <uses-library
+83-->[androidx.window:window:1.0.0] C:\Users\jorge\.gradle\caches\8.13\transforms\ec1d685074af8928554352fbeb60aebb\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+84            android:name="androidx.window.sidecar"
+84-->[androidx.window:window:1.0.0] C:\Users\jorge\.gradle\caches\8.13\transforms\ec1d685074af8928554352fbeb60aebb\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0] C:\Users\jorge\.gradle\caches\8.13\transforms\ec1d685074af8928554352fbeb60aebb\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+86
+87        <service
+87-->[androidx.room:room-runtime:2.6.1] C:\Users\jorge\.gradle\caches\8.13\transforms\f598a257ee25c88f3b45b42359a42211\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+88            android:name="androidx.room.MultiInstanceInvalidationService"
+88-->[androidx.room:room-runtime:2.6.1] C:\Users\jorge\.gradle\caches\8.13\transforms\f598a257ee25c88f3b45b42359a42211\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+89            android:directBootAware="true"
+89-->[androidx.room:room-runtime:2.6.1] C:\Users\jorge\.gradle\caches\8.13\transforms\f598a257ee25c88f3b45b42359a42211\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+90            android:exported="false" />
+90-->[androidx.room:room-runtime:2.6.1] C:\Users\jorge\.gradle\caches\8.13\transforms\f598a257ee25c88f3b45b42359a42211\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jorge\.gradle\caches\8.13\transforms\9b63866058475156cb06cbd4ba65aa8d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>
